@@ -8,10 +8,10 @@ export default function initMenuMobile() {
   function openMenu() {
     menuList.classList.add('active');
     menuButton.classList.add('active');
-    outsideClick(menuList, eventos, () => {
+   /* outsideClick(menuList, eventos, () => {
       menuList.classList.remove('active');
       menuButton.classList.remove('active');
-    });
+    });*/
   }
 
   if (menuButton) {
