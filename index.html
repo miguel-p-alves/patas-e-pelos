@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Patas&Pelos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#raças">Raças</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A Empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="canil.html">Nosso Canil</a></li>
+            </ul>
+          </li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        </ul>
+      </nav>
+      <section class="grid-section raças" data-anime="scroll" id="raças">
+        <h1 class="titulo">Patas <span>&</span> Pelos</h1>
+        <ul class="raças-lista" data-tab="menu">
+          <li>
+            <img src="img/husky.jpg" />
+          </li>
+          <li>
+            <img src="img/golden-retriever.jpg" />
+          </li>
+          <li>
+            <img src="img/pastor-alemao.jpg" />
+          </li>
+          <li>
+            <img src="img/border-collie.jpg" />
+          </li>
+        </ul>
+        <div class="raças-descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Husky Siberiano</h2>
+            <p>
+              O Husky Siberiano é uma raça de porte médio, famosa por sua
+              aparência semelhante à de um lobo, com olhos azuis ou
+              heterocromáticos (um olho de cada cor). Originários da Sibéria,
+              foram criados como cães de trenó, conhecidos por sua resistência e
+              habilidade para trabalhar em condições extremas. São cães
+              enérgicos, independentes e sociáveis, mas podem ser teimosos e
+              precisam de bastante exercício para evitar comportamentos
+              destrutivos.
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Golden Retriever</h2>
+            <p>
+              O Golden Retriever é uma raça de porte médio a grande, conhecida
+              por seu temperamento amigável, dócil e inteligente. Eles possuem
+              uma pelagem dourada que pode variar de tons claros a escuros. São
+              cães muito ativos, adoram atividades ao ar livre e são excelentes
+              nadadores. Devido à sua inteligência e disposição para agradar,
+              são frequentemente utilizados como cães-guia, de terapia e em
+              operações de busca e resgate.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Pastor Alemão</h2>
+            <p>
+              O Pastor Alemão é uma raça de porte grande, reconhecida por sua
+              inteligência, lealdade e versatilidade. Com uma aparência robusta
+              e atlética, eles são frequentemente usados em funções de trabalho,
+              como cães de polícia, militares e de serviço. Eles são protetores,
+              fáceis de treinar e têm um forte instinto de guarda, o que os
+              torna excelentes cães de família e de trabalho.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Border Collie</h2>
+            <p>
+              O Border Collie é uma raça de porte médio, conhecida por sua
+              inteligência excepcional e habilidades de pastoreio. Eles possuem
+              uma pelagem que pode ser lisa ou levemente ondulada, geralmente
+              preta e branca, mas também podem apresentar outras cores. São cães
+              extremamente energéticos e precisam de muito exercício físico e
+              mental. Devido à sua inteligência e disposição para aprender, são
+              frequentemente vistos em competições de obediência, agilidade e
+              trabalho de pastoreio.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual é a melhor maneira de treinar um filhote?</dt>
+          <dd>
+            Comece o treinamento desde cedo, usando reforço positivo e sessões
+            curtas e frequentes. Seja paciente e consistente, e recompense o bom
+            comportamento com guloseimas ou elogios.
+          </dd>
+          <dt>Com que frequência devo levar meu cachorro ao veterinário?</dt>
+          <dd>
+            Filhotes devem visitar o veterinário com mais frequência para
+            vacinas e check-ups. Cães adultos geralmente precisam de check-ups
+            anuais e vacinas regulares.
+          </dd>
+          <dt>Qual é a melhor dieta para o meu cachorro?</dt>
+          <dd>
+            A melhor dieta para o seu cachorro dependerá de sua idade, raça e
+            nível de atividade. Consulte o seu veterinário para obter
+            recomendações específicas.
+          </dd>
+          <dt>Como posso saber se meu cachorro está doente?</dt>
+          <dd>
+            Fique atento a mudanças no comportamento do seu cachorro, como
+            letargia, perda de apetite ou vômitos. Se você notar algo incomum,
+            entre em contato com o seu veterinário imediatamente.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">No nosso canil</h1>
+        <div class="numeros-grid"></div>
+      </section>
+
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div
+          class="mapa"
+          data-tooltip
+          aria-label="Endereço próximo ao estacionamento."
+        >
+          <img src="img/mapa.png" />
+        </div>
+        <ul class="dados">
+          <li>contato@patasepelos.com</li>
+          <li>+55 (22) 9999-9999</li>
+          <li>Rua Barão, nº 22</li>
+          <li>Rio de Janeiro - RJ</li>
+          <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+          <li data-semana="1,2,3,4,5" data-horario="8,18">
+            Seg à Sex das 8 às 18
+          </li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>
+          Desenvolvido por
+          <a href="https://github.com/miguel-p-alves">@miguel-p-alves</a>.
+        </p>
+      </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
